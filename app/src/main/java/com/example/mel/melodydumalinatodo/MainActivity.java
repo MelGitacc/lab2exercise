@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 //this method will be called and prints the message when previous button is clicked
-                Log.d(TAG, "Previous button is clicked");
+                Log.d(TAG, "Previousgit status button is clicked");
             }
         });
 
