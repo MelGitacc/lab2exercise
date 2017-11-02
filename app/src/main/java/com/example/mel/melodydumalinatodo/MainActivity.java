@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         // the layout file is defined in the project res/layout/activity_todo.xml file
         setContentView(R.layout.activity_main);
 
-        // test for this null state
+// test for this null state
         // check for saved state due to changes such as rotation or back button
         // and restore any saved state such as the todo index
         if ( savedInstanceState != null ) {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 //this method will be called and prints the message when previous button is clicked
-                Log.d(TAG, "Previousgit status button is clicked");
+                Log.d(TAG, "Previous button is clicked");
             }
         });
 
